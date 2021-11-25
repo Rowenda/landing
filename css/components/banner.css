@@ -1,13 +1,22 @@
 .banner {
-    height: 32vw;
+    height: 22em;
     width: 100%;
     background-image: url("../../images/background.png");
     background-position: center;
     background-size: cover;
     color: rgb(243, 241, 207);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.banner-text {
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8vw;
 }
 
 .banner h1,
@@ -20,6 +29,13 @@ p {
     font-size: 20px;
 }
 
+.banner-button {
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .banner a {
     text-decoration: none;
     padding: 1em 2em;
@@ -27,12 +43,13 @@ p {
     color: rgb(243, 241, 207);
     font-weight: bolder;
     border-radius: 20px;
-    margin: 8em 0 0 16em;
+    margin: 0 auto;
+    justify-content: center;
 }
 
-@media (max-width: 960px) {
-    .banner a {
-        margin: 2vw 0 0 8vw;
+@media (max-width: 1156px) {
+    .banner {
+        height: 35em;
     }
     .banner h1 {
         font-size: 3vw;
