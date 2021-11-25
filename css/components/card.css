@@ -1,0 +1,29 @@
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    box-shadow: 0.5em 0.5em 2em gray;
+    width: 16em;
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+}
+
+.card img {
+    margin: 1em auto;
+    width: 10em;
+    height: 10em;
+}
+
+.card h3 {
+    padding: 0 1.5em;
+}
+
+.card li {
+    margin: 0.4em auto;
+    list-style: none;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
