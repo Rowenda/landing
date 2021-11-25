@@ -4,11 +4,11 @@
 }
 
 .card {
-    box-shadow: 0.5em 0.5em 2em gray;
+    box-shadow: 0.5em 0.5em 2em rgb(175, 175, 175);
     width: 16em;
     display: flex;
     flex-direction: column;
-    background-color: burlywood;
+    background-color: #097dba;
     margin-top: 1em;
 }
 

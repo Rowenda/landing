@@ -37,6 +37,7 @@ p {
 }
 
 .banner a {
+    display: block;
     text-decoration: none;
     padding: 1em 2em;
     background: linear-gradient(0.25turn, rgb(49, 59, 202), rgb(37, 168, 70));
