@@ -29,3 +29,18 @@ p {
     border-radius: 20px;
     margin: 8em 0 0 16em;
 }
+
+@media (max-width: 960px) {
+    .banner a {
+        margin: 2vw 0 0 8vw;
+    }
+    .banner h1 {
+        font-size: 3vw;
+    }
+    .banner p {
+        font-size: 2vw;
+    }
+    .banner-text {
+        padding-bottom: 2vw;
+    }
+}

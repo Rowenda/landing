@@ -14,11 +14,20 @@ footer ul {
 }
 
 footer img {
-    max-width: 3vw;
+    width: 3vw;
     margin: 0 1em;
 }
 
 footer img:hover {
     transform: rotate(180deg);
     transition: 2s ease-out;
+}
+
+@media (max-width: 960px) {
+    footer img {
+        width: 8vw
+    }
+    footer {
+        height: 10em;
+    }
 }
